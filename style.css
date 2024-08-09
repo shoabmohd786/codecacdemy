@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid rgb(214, 211, 211);
+}
+.nav-bar a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+    font-weight: 500;
+}
+.upgrade-pro{
+    background: rgb(84, 84, 248);
+    border-radius: 4px;
+    padding: 6px 14px;
+
+}
+.upgrade-pro a{
+    text-decoration: none;
+    color: white;
+}
+.search-icon{
+    font-size: 25px;
+}
+.signup{
+    background: rgb(84, 84, 248);
+    border-radius: 4px;
+    padding: 6px 14px;
+}
+.signup a{
+    text-decoration:none;
+    color: white;
+}
+.loging-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.loging-container h1{
+    margin: 30px;
+}
+.loging-container label{
+    font-size: 20px;
+}
+.loging-container input{
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+}
+.for-got{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.log-in{
+    text-decoration: none;
+    background: rgb(84, 84, 248);
+    height: 50px;
+    width: 400px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+}
+.footer-container h4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.icon-tab{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0 5px;
+
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.signup-container a{
+    text-decoration: none;
+}
